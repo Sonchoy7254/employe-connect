@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:wght@300&family=Quicksand:wght@300&family=Work+Sans:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mgt-1 {
+    margin-top: 100px;
+}
+.mgt-2X {
+    margin-top: 150px;
+}
+.mgt-2 {
+    margin-top: 30px;
+}
+.mgt-3 {
+    margin-top: 5px;
+}
+.mgt-n1 {
+    margin-top: -30px;
+}
+
+.mgb-1 {
+    margin-bottom: 100px;
+}
+
+.mgl-1 {
+    margin-left: 30px;
+}
+
+.mab-1 {
+    margin-bottom: 50px;
+}
+.pdt-1 {
+    padding-top: 40px;
+}
+.pdd-1 {
+    padding-bottom: 40px;
+}
+/* root end */
+
+
+
+/* ****************************
+    Header Section Start 
+   **************************** */
+
+/* ============= navbar menu item ============= */
+
+.links-style {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .7;
+}
+
+.nav-item {
+    margin: 0 20px 0 0;
+}
+
+.links-style-2 {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .7;
+}
+
+/* ============= hamburger menu ============= */
+
+.navbar-toggler {
+    outline: none;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+}
+
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border: 0;
+}
+
+.hamburger-menu,
+.hamburger-menu:before,
+.hamburger-menu:after {
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background-color: #333;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.hamburger-menu {
+    right: 10px;
+}
+
+.hamburger-menu:before,
+.hamburger-menu:after {
+    content: "";
+    right: 0;
+}
+
+.hamburger-menu:before {
+    top: -7px;
+}
+
+.hamburger-menu:after {
+    top: 8px;
+}
+
+.active.hamburger-menu:before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.active.hamburger-menu:after {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.active.hamburger-menu {
+    background-color: transparent;
+}
+
+/* ============= Header Backgroound Image ============= */
+.header-bg-image {
+    background-image: url('../assets/header-bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+
+}
+
+.height-width {
+    height: 60vh;
+    width: 100%;
+}
+
+/* ============= Header Content ============= */
+
+.header-title,
+.header-subtitle {
+    text-shadow: 2px 5px 20px #06032b;
+}
+
+.header-subtitle {
+    font-size: .925rem !important;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    letter-spacing: .5;
+    font-weight: 500;
+}
+
+/* ============= Header button style ============= */
+
+.header-btn-1,
+.header-btn-2 {
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    color: #fff;
+    border-radius: 0;
+}
+.header-btn-1 {
+    background-color: #0DCAF0;
+}
+.header-btn-1 {
+    border: 2px solid transparent;
+}
+
+.header-btn-1 .fa-angles-right {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.header-btn-1:hover {
+    border: 2px solid #0DCAF0;
+    background-color: transparent;
+}
+
+.header-btn-2 {
+    background-color: transparent;
+    border: 2px solid #0DCAF0;
+}
+
+.header-btn-2:hover {
+    border: 2px solid transparent;
+    background-color: #0DCAF0;
+}
+
+.header-btn-1:hover,
+.header-btn-2:hover {
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/* ****************************
+    Header Section End
+   **************************** */
+
+
+
+
+   .gallery-item img:hover {
+    box-shadow: 3px 2px 10px #06032b;
+   }
+
+
+/* ****************************
+    About Section Start
+   **************************** */
+
+
+/* ============= Section Title ============= */
+.text-color, .section-title, .count-text, .fa-2x, .count-number, .sub-heading{
+    color: #050650;
+}
+.section-title {
+    letter-spacing: 10px;
+}
+/* ============= welcome video ============= */
+.Welcome-video {
+    height: 90vh;
+    width: 100%;
+}
+
+/* ============= Progress section ============= */
+
+.counter {
+    background-color:rgb(255, 255, 255);    
+    padding: 10px 0;
+}
+.count-text {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.fa-2x {
+    margin: 5px auto;
+    float: none;
+    display: table;
+}
+
+.br-c {
+    border-right: 2px solid #dbdbdb8e;
+}
+.count-number {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* ****************************
+    About Section End
+   **************************** */
+
+/* ****************************
+    Document Section Start
+   **************************** */
+
+/* Vector Image  */
+.testimonial-image {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+}
+.doc-item,.policy-item {
+    margin: 10px 0;
+}
+.doc-item:hover {
+    box-shadow: 2px 3px 5px #06032b;
+}
+.border-dark {
+    border: 2px solid #050650
+}
+.border-white {
+    border: 2px solid #fff;
+}
+.sub-heading-dec {
+    font-size: 1.25rem !important;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    letter-spacing: .5;
+    font-weight: 700;
+}
+.p-subtitle-2 {
+    font-size: .925rem !important;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    letter-spacing: .5;
+    font-weight: 700;
+}
+.policy-item:hover {
+    box-shadow: 2px 3px 5px rgb(63, 63, 63);
+}
+
+/* ****************************
+    Map Section Start
+   **************************** */
+
+.gmap-res {
+    width: 100%;
+}
+
+/* ****************************
+    Map Section end
+   **************************** */
+
+
+/* ****************************
+    footer Section Start
+   **************************** */
+
+/* Social icon  */
+.social-icon {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 0;
+}
+.social-icon:hover {
+    box-shadow: 1px 1px 10px #06032b;
+}
+
+
+/* ****************************
+    footer Section end
+   **************************** */
+
+
+
+
+/* slider form  */
+
+
+.sidenav {
+    height: 80%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    right: 0;
+    background-color: #ffffff;
+    box-shadow: 2px  3px 10px #050650;
+    border-radius: 10px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #000;
+  }
+  .sidenav .closebtn:hover {
+      color: #e71690;
+  }
+
+
+

@@ -1,0 +1,88 @@
+
+@media screen and (max-width: 900px) {
+    .Welcome-video {
+        height: 50vh;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* include  */
+
+    .p-subtitle-2 {
+        padding: 0 10px;
+    }
+
+
+    .info-document {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .res-info-doc {
+        width: 125%;
+    }
+
+    .hold-everything {
+        margin-left: auto;
+    }
+
+    .containerr {
+        width: 400px;
+    }
+
+    .field {
+        width: 280px;
+    }
+
+    .progress-bar-c .step .bullet:before,
+    .progress-bar-c .step .bullet:after {
+        right: -46px;
+        height: 3px;
+        width: 40px;
+        background: #585a5a;
+    }
+
+    .count-number {
+        font-size: 18px;
+    }
+
+    .count-text {
+        font-size: 15px;
+        padding: 0 5px;
+    }
+
+    .responsive-c {
+        padding: 7px 5px;
+    }
+
+    .mat-2 {
+        padding: 10px 0;
+    }
+
+    .btn-res {
+        width: 100%;
+    }
+    .fa-2x {
+        font-size: 18px;
+       
+    }
+    .res-p {
+        padding: 7px 10px;
+    }
+    .mgl-1 {
+        margin-left: auto;
+    }
+    .res-mgt {
+        margin-top: 50px;
+    }
+
+
+
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .slide-form {
+      width: 50%;
+  }
